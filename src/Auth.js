@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+// import './Auth.css';
 const Input = (props) => 
 	<input 
 		className='c-input'
