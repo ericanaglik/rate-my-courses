@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-// import './Auth.css';
+// import './SignUp.css';
+import { Link } from 'react-router-dom'
 const Input = (props) => 
 	<input 
 		className='c-input'
@@ -13,7 +14,7 @@ const Button = (props) =>
     onClick={props.onClick}>{props.text}
     </button>
 
-class Auth extends Component {
+class SignUp extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -64,9 +65,11 @@ class Auth extends Component {
         <Button 
           text='Sign Up'
           onClick={this.handleSubmit} />
-					</div>        
+        <Link to="/login" className="navbar__link"><li>Already a user? Click here to login</li></Link>        
+          </div>
+          
 				)
     }
 }
 
-export default Auth
+export default SignUp
