@@ -12,7 +12,8 @@ function App() {
     <BrowserRouter>
       
         <NavBar/>
-        {/* <Route path="/" exact component={Landing} /> */}
+        
+        <Route path="/" exact component={Landing} />
         <Route path="/login" exact component={LogIn} />
         <Route path="/signup" exact component={SignUp} />
         

@@ -1,18 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Landing extends Component {
-    constructor(props) {
-        super(props);
+function Landing(props) {
 
-    }
-}
-render(){
-    return(
+    
+    return (
         <div>
+         
         <h1>Make School Courses Told By Students</h1>
         <h2><li>View Courses</li></h2>
         </div>
-    )
+        )
 }
 
 export default Landing
