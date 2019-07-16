@@ -1,13 +1,15 @@
 import React from 'react'
+import './Landing.css';
+import landingpic from './landing.png'
 
 function Landing(props) {
 
     
     return (
         <div>
-         
         <h1>Make School Courses Told By Students</h1>
-        <h2><li>View Courses</li></h2>
+        <button class="button button4">VIEW COURSES</button>
+        <img src={landingpic} alt="LandingPic" />
         </div>
         )
 }

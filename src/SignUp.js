@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-// import './SignUp.css';
+import './SignUp.css';
 import { Link } from 'react-router-dom'
 const Input = (props) => 
 	<input 
@@ -37,7 +37,10 @@ class SignUp extends Component {
 
     render(){
         return(
-				<div>
+        <div>
+        <h1>Create an Account</h1>
+        <div className='page-wrap'>
+        <div className='mobile'>
         <Input 
           type='text' 
           placeholder='Full name'
@@ -66,6 +69,8 @@ class SignUp extends Component {
           text='Sign Up'
           onClick={this.handleSubmit} />
         <Link to="/login" className="navbar__link"><li>Already a user? Click here to login</li></Link>        
+          </div>
+          </div>
           </div>
           
 				)
