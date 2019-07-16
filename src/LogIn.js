@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-// import './LogIn.css';
+import './LogIn.css';
 import { Link } from 'react-router-dom'
 const Input = (props) => 
 	<input 
@@ -36,6 +36,9 @@ class LogIn extends Component {
     render(){
         return(
 				<div>
+        <h1>Log In</h1>
+        <div className='page-wrap'>
+        <div className='mobile'>
         
         <Input 
           type='text' 
@@ -53,7 +56,9 @@ class LogIn extends Component {
           text='Log In'
           onClick={this.handleSubmit} />
         <Link to="/signup" className="navbar__link"><li>Need to sign up? Click here</li></Link>
-					</div>        
+					</div>
+                    </div>
+                    </div>      
 				)
     }
 }
