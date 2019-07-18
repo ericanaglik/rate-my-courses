@@ -1,5 +1,5 @@
 body {
-    background-image: url(./authbg.png);
+    background-image: #ffffff;
 }
 h1 {
     display: flex;
@@ -46,7 +46,7 @@ html, body, .app {
     text-align: center;  
     border-radius: 20px;
     box-shadow: 0px 0px 0px 20px var(--white);
-    background-image: linear-gradient(to bottom, #98F5F4, #3C8ECD, #2c53b2, #0B1550 );
+    background-image: linear-gradient(to bottom, #2c53b2, #0B1550 );
     
     &::before {
       position: absolute;
