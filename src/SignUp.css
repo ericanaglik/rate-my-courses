@@ -56,11 +56,18 @@ img.logo{
 .form{
   background:#fff;
   padding:20px 30px;
+  padding-bottom: 75px;
+}
+.pls{
+    padding-left:350px;
 }
 form label{
   font-weight: bold;
+  text-align: center;
+  padding-left: 365px;
 }
 form .form-control{
+  padding-left: 100px;
   border-radius:1px;
   border-left:none;
   height:50px;
