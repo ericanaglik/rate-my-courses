@@ -43,9 +43,8 @@ class SignUp extends Component {
               <div className="col-md-10 mx-auto">
                 <div className="card">
                   <div className="row mr-0 ml-0 d-flex h-100">
-                    {/* <div className="col-md-6 img-holder justify-content-flex-start align-self-flex-start">
-                      <img src="https://res.cloudinary.com/emygeek/image/upload/v1534583336/undraw_digital_nomad_9kgl_awjyq5.svg" className="img-fluid" height="100px" />
-                    </div> */}
+                      <img src="https://res.cloudinary.com/erica-naglik/image/upload/v1564606802/skyline_vqpy6p.png" className="img-fluid" width="860px" />
+                    
                     <div className="col-md-6 form">
                       <div className="card-title">
                         <img src="https://res.cloudinary.com/erica-naglik/image/upload/v1564602895/Screen_Shot_2019-06-07_at_7.46.14_PM_cbfogy.png" className="img-ms logo" />

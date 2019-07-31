@@ -41,7 +41,10 @@ body{
   background:#21253d;
 }
 .img-holder{
-  padding: 3rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 img.logo{
   display:block;
