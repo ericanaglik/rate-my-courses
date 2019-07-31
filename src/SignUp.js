@@ -37,24 +37,61 @@ class SignUp extends Component {
 
     render(){
         return(
-        <div>
-        <h1>Create an Account</h1>
-        <div className='page-wrap'>
-        <div className='mobile'>
+          <section id="signup">
+          <div className="container "> 
+            <div className="row">
+              <div className="col-md-10 mx-auto">
+                <div className="card">
+                  <div className="row mr-0 ml-0 d-flex h-100">
+                    {/* <div className="col-md-6 img-holder justify-content-flex-start align-self-flex-start">
+                      <img src="https://res.cloudinary.com/emygeek/image/upload/v1534583336/undraw_digital_nomad_9kgl_awjyq5.svg" className="img-fluid" height="100px" />
+                    </div> */}
+                    <div className="col-md-6 form">
+                      <div className="card-title">
+                        <img src="https://res.cloudinary.com/erica-naglik/image/upload/v1564602895/Screen_Shot_2019-06-07_at_7.46.14_PM_cbfogy.png" className="img-ms logo" />
+                        <h2>Sign up</h2>
+                        <p>Maybe insert a sentence or two here about being a good person on this platform</p>
+                      </div>
+                      <div className="card-body">
+                        <form>
+                          <div className="form-group">
+                            <label>Name</label>
+                            <div className="input-group mb-3">
+                              <div className="input-group-prepend">
+                                <span className="input-group-text" id="name-addon"><i className="far fa-user" /></span>
+                              </div>
         <Input 
-          type='text' 
+          type='text'
+          className="form-control" 
           placeholder='Full name'
           value={this.state.name.value}
           onKeyUp={(e) => this.handleInput('name', e)} />
+          </div>
+          </div>
+          <div className="form-group">
+          <label>Email</label>
+                          <div className="input-group mb-3">
+                            <div className="input-group-prepend">
+                              <span className="input-group-text" id="email-addon"><i className="far fa-envelope-open" /></span>
+                            </div>
         
         <Input 
-          type='text' 
+          type='text'
+          className="form-control" 
           placeholder='Make School Email'
           value={this.state.email.value}
           onKeyUp={(e) => this.handleInput('email', e)} />
-        
+        </div>
+                        </div>
+                        <div className="form-group">
+                          <label>Password</label>
+                          <div className="input-group mb-3">
+                            <div className="input-group-prepend">
+                              <span className="input-group-text" id="password-addon"><i className="fas fa-fingerprint" /></span>
+                            </div>
         <Input 
-          type='password' 
+          type='password'
+          className="form-control"  
           placeholder='Create password'
           value={this.state.password.value}
           onKeyUp={(e) => this.handleInput('password', e)} />
@@ -64,14 +101,26 @@ class SignUp extends Component {
           placeholder='Confirm password'
           value={this.state.confirm.value}
           onKeyUp={(e) => this.handleInput('confirm', e)} />
-                
+      
         <Button 
-          text='Sign Up'
-          onClick={this.handleSubmit} />
+          text='Join Now'
+          onClick={this.handleSubmit} /> 
         <Link to="/login" className="navbar__link"><li>Already a user? Click here to login</li></Link>        
+        </div>
+                        </div>
+                        <div className="form-group text-center">
+                
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div> {/* End of card */}
+            </div>
           </div>
-          </div>
-          </div>
+        </div>
+      </section>
+        
           
 				)
     }
