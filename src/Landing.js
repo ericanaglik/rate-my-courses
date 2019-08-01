@@ -9,7 +9,7 @@ function Landing(props) {
         <div>
         <h1>Make School Courses Told By Students</h1>
         <button class="button button4">VIEW COURSES</button>
-        <img src={landingpic} alt="LandingPic" />
+        <div class="landing"><img src={landingpic} alt="" /></div>
         </div>
         )
 }
