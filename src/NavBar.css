@@ -18,12 +18,12 @@ ul li{
 }
 
 ul li:hover{
-    background-color:#beecea;
+    background-color:#98F5F4;
 }
 
 ul li.focused{
     color:#fff;
-    background-color:#41c7c2;
+    background-color:#98F5F4;
 }
 
 p{

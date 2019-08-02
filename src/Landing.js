@@ -12,8 +12,10 @@ function Landing(props) {
         <h1>Courses</h1>
         <h1>Told By Students</h1>
         </div>
+        <div class="pls">
         <button class="button button4">VIEW COURSES</button>
         <div class="landing"><img src={landingpic} alt="" /></div>
+        </div>
         </div>
         )
 }
