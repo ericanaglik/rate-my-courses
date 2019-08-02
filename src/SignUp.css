@@ -1,24 +1,21 @@
 /****************
 BACKGROUND COLOR
 *****************/
-
 body {
 	background: #f9fbfd;
 }
-  
-  
-  /*********************
-  Padding for the box
-  that holds everything
-  **********************/
-  
+
+/*********************
+Padding for the box
+that holds everything
+**********************/
 #signup {
   padding-top: 20px;
   padding-right: 400px;
   padding-left: 400px;
   padding-bottom: 20px;
 }
-  
+
 #signup .card {
   background-color: #dfdbe5;
   border-radius: 8px;
@@ -66,12 +63,11 @@ img.logo {
   margin-bottom: 20px;
   height: 80px;
 }
-  
-  
+
+
 /*********
 INPUT FORM
 *********/
-  
 .form {
   background: #fff;
   padding: 10px 30px;
@@ -80,7 +76,7 @@ INPUT FORM
   padding-bottom: 20px;
   margin-top: 30px;
 }
-  
+
 .c-input {
   width: 100%;
   margin-bottom: 15px;
