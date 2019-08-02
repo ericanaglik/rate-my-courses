@@ -19,7 +19,7 @@ body {
 .ms {
     position: absolute;
     width: 100px;
-	left: 550px;
+	left: 445px;
 	top: 275px;
 	margin-left: -20px;
 }
@@ -27,7 +27,7 @@ body {
 
 h1 {
     font-size: 50px;
-    padding-left: 300px;
+    padding-left: 200px;
     line-height: 50px;
 }
 
@@ -43,7 +43,7 @@ h1 {
 }
 
 .pls {
-    padding-left: 300px;
+    padding-left: 200px;
 }
 
 .landing img{
