@@ -57,7 +57,7 @@ body{
     padding-left: 140px;
     padding-right: 140px;
     padding-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
   }
     
   .c-input {  	
@@ -78,7 +78,6 @@ body{
       font-size: 15px;
       color: #fff;
       text-transform : uppercase;
-      
       border: 1px solid transparent;
       border-radius: 4px;
       background-color: #12739E;    
