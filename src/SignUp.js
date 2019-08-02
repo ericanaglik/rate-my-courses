@@ -60,60 +60,33 @@ class SignUp extends Component {
           placeholder='Full name'
           value={this.state.name.value}
           onKeyUp={(e) => this.handleInput('name', e)} />
-          <div className="form-group">
-                          <div className="input-group mb-3">
-                            <div className="input-group-prepend">
-                              <span className="input-group-text" id="email-addon"><i className="far fa-envelope-open" /></span>
-                            </div>
+
         <Input 
           type='text'
           className="form-control" 
           placeholder='Make School Email'
           value={this.state.email.value}
           onKeyUp={(e) => this.handleInput('email', e)} />
-        </div>
-                        </div>
-                        <div className="form-group">
-                          <div className="input-group mb-3">
-                            <div className="input-group-prepend">
-                              <span className="input-group-text" id="password-addon"><i className="fas fa-fingerprint" /></span>
-                            </div>
+
         <Input 
           type='password'
           className="form-control"  
           placeholder='Create password'
           value={this.state.password.value}
           onKeyUp={(e) => this.handleInput('password', e)} />
-          </div>
-        </div>
-                        
-                        <div className="form-group">
-                          <div className="input-group mb-3">
-                            <div className="input-group-prepend">
-                              <span className="input-group-text" id="password-addon"><i className="fas fa-fingerprint" /></span>
-                            </div>
+
         <Input 
           type='password'
           className="form-control"  
           placeholder='Confirm password'
           value={this.state.confirm.value}
           onKeyUp={(e) => this.handleInput('confirm', e)} />
-          </div>
-        </div>
-                        <div className="form-group">
-                          <div className="input-group mb-3">
-                            <div className="input-group-prepend">
-                              <span className="input-group-text" id="password-addon"><i className="fas fa-fingerprint" /></span>
-                            </div>
+
         <Button 
           text='Join Now'
           onClick={this.handleSubmit} /> 
         <Link to="/login" className="navbar__link">Already a user? Click here to login</Link>  
-        </div>
-        </div>
-                        <div className="form-group text-center">
-                
-                        </div>
+
                       </form>
                     </div>
                   </div>
