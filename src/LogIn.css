@@ -111,3 +111,13 @@ body{
       text-decoration: underline;
       text-align: center;
     }
+
+.plsgod {
+    padding-left: 100px;
+    padding-right: 75px;
+}
+
+.plsbutton {
+    padding-top: 20px;
+    padding-left: 40px;
+}

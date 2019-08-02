@@ -63,11 +63,12 @@ class LogIn extends Component {
           placeholder='Create password'
           value={this.state.password.value}
           onKeyUp={(e) => this.handleInput('password', e)} />
-                
+        <div class="plsgod">    
         <Button 
           text='Log In'
           onClick={this.handleSubmit} />
-        <Link to="/signup" className="navbar__link">Need to sign up? Click here</Link>
+          </div>  
+        <div class="plsbutton"><Link to="/signup" className="navbar__link">Need to sign up? Click here</Link></div>
         </form>
                     </div>
                   </div>

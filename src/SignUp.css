@@ -89,6 +89,11 @@ img.logo{
     
   }
 
+.plsgod {
+    padding-left: 100px;
+    padding-right: 75px;
+}
+
   a:link {
     text-decoration: none;
     color: #000;
@@ -113,3 +118,7 @@ img.logo{
     text-decoration: underline;
     text-align: center;
   }
+
+.plslink {
+    padding-top: 25px;
+}
