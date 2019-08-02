@@ -6,10 +6,10 @@ body{
   
 }
 #signup{
-  padding-top: 50px;
+  padding-top: 20px;
   padding-right: 400px;
   padding-left: 400px;
-  padding-bottom: 200px;
+  padding-bottom: 20px;
 }
 #signup .card{
   background-color:#dfdbe5;
@@ -56,38 +56,60 @@ img.logo{
 .form{
   background:#fff;
   padding:20px 30px;
-  padding-bottom: 75px;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-bottom: 20px;
+  margin-top: 30px;
 }
-.pls{
-    padding-left:350px;
-}
-form label{
-  font-weight: bold;
-  text-align: center;
-  padding-left: 365px;
-}
-form .form-control{
-  padding-left: 100px;
-  border-radius:1px;
-  border-left:none;
-  height:50px;
-}
-form .input-group>.input-group-prepend>.input-group-text {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-radius: 1px;
-    background: #dfdbe5;
-/*     border-right: none; */
-}
-button.btn{
-  border-radius:1px;
-  margin-top:15px;
-  font-size: .9rem;
-  text-transform: uppercase;
-  letter-spacing: 1.2px;
-  font-weight: 600;
-  height:50px;
-}
-.btn-secondary{
-  background-color: #3D2B3D;
-}
+  
+.c-input {  	
+    width: 100%;
+    
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #12739E;
+    border-radius: 4px;
+
+  }
+  
+.c-button {
+    width: 100%;
+    padding: 10px 30px;
+    
+    font-size: 15px;
+    color: #fff;
+    text-transform : uppercase;
+    
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.2);
+    background-color: #12739E;    
+    cursor: pointer;  
+    
+  }
+
+  a:link {
+    text-decoration: none;
+    color: #000;
+    padding-top: 25px;
+    padding-left: 25px;
+    text-align: center;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: rgb(85, 85, 85);
+    text-align: center;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    text-align: center;
+  }

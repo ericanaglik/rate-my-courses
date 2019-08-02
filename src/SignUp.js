@@ -37,6 +37,7 @@ class SignUp extends Component {
 
     render(){
         return(
+          
           <section id="signup">
           <div className="container "> 
             <div className="row">
@@ -52,30 +53,18 @@ class SignUp extends Component {
                         <p>Maybe insert a sentence or two here about being a good person on this platform</p>
                       </div>
                       <div className="card-body">
-                        <form>
-                          <div className="form-group">
-                            <label>Name</label>
-                            <div className="input-group mb-3">
-                              <div className="input-group-prepend">
-                                <span className="input-group-text" id="name-addon"><i className="far fa-user" /></span>
-                              </div>
-        <div className="pls">
+                        <form className="form">
         <Input 
           type='text'
           className="form-control" 
           placeholder='Full name'
           value={this.state.name.value}
           onKeyUp={(e) => this.handleInput('name', e)} />
-          </div>
-          </div>
           <div className="form-group">
-          <label>Email</label>
                           <div className="input-group mb-3">
                             <div className="input-group-prepend">
                               <span className="input-group-text" id="email-addon"><i className="far fa-envelope-open" /></span>
                             </div>
-                            </div>
-        <div className="pls">
         <Input 
           type='text'
           className="form-control" 
@@ -83,15 +72,12 @@ class SignUp extends Component {
           value={this.state.email.value}
           onKeyUp={(e) => this.handleInput('email', e)} />
         </div>
-        </div>
                         </div>
                         <div className="form-group">
-                          <label>Password</label>
                           <div className="input-group mb-3">
                             <div className="input-group-prepend">
                               <span className="input-group-text" id="password-addon"><i className="fas fa-fingerprint" /></span>
                             </div>
-        <div className="pls">
         <Input 
           type='password'
           className="form-control"  
@@ -100,13 +86,12 @@ class SignUp extends Component {
           onKeyUp={(e) => this.handleInput('password', e)} />
           </div>
         </div>
-                        </div>
+                        
                         <div className="form-group">
                           <div className="input-group mb-3">
                             <div className="input-group-prepend">
                               <span className="input-group-text" id="password-addon"><i className="fas fa-fingerprint" /></span>
                             </div>
-        <div className="pls">
         <Input 
           type='password'
           className="form-control"  
@@ -115,20 +100,17 @@ class SignUp extends Component {
           onKeyUp={(e) => this.handleInput('confirm', e)} />
           </div>
         </div>
-                        </div>
                         <div className="form-group">
                           <div className="input-group mb-3">
                             <div className="input-group-prepend">
                               <span className="input-group-text" id="password-addon"><i className="fas fa-fingerprint" /></span>
                             </div>
-        <div className="pls">
         <Button 
           text='Join Now'
           onClick={this.handleSubmit} /> 
-        <Link to="/login" className="navbar__link"><li>Already a user? Click here to login</li></Link>  
+        <Link to="/login" className="navbar__link">Already a user? Click here to login</Link>  
         </div>
         </div>
-                        </div>
                         <div className="form-group text-center">
                 
                         </div>
