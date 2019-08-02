@@ -54,27 +54,28 @@ class SignUp extends Component {
                       </div>
                       <div className="card-body">
                         <form className="form">
+        {/* NAME INPUT FORM */}
         <Input 
           type='text'
           className="form-control" 
           placeholder='Full name'
           value={this.state.name.value}
           onKeyUp={(e) => this.handleInput('name', e)} />
-
+        {/* EMAIL INPUT FORM */}
         <Input 
           type='text'
           className="form-control" 
           placeholder='Make School Email'
           value={this.state.email.value}
           onKeyUp={(e) => this.handleInput('email', e)} />
-
+        {/* PASSWORD INPUT FORM */}
         <Input 
           type='password'
           className="form-control"  
           placeholder='Create password'
           value={this.state.password.value}
           onKeyUp={(e) => this.handleInput('password', e)} />
-
+        {/* CONFIRM PASSWORD INPUT FORM */}
         <Input 
           type='password'
           className="form-control"  
@@ -82,6 +83,7 @@ class SignUp extends Component {
           value={this.state.confirm.value}
           onKeyUp={(e) => this.handleInput('confirm', e)} />
         <div class="plsgod">
+        {/* SIGN UP BUTTON */}
         <Button 
           text='Join Now'
           onClick={this.handleSubmit} /> 
