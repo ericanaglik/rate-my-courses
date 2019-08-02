@@ -16,6 +16,14 @@ body {
     margin: 4px 2px;
 }
 
+.ms {
+    position: absolute;
+    width: 100px;
+	left: 550px;
+	top: 275px;
+	margin-left: -20px;
+}
+
 
 h1 {
     font-size: 50px;
