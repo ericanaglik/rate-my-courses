@@ -67,7 +67,7 @@ class LogIn extends Component {
         <Button 
           text='Log In'
           onClick={this.handleSubmit} />
-        <Link to="/signup" className="navbar__link"><li>Need to sign up? Click here</li></Link>
+        <Link to="/signup" className="navbar__link">Need to sign up? Click here</Link>
         </form>
                     </div>
                   </div>
