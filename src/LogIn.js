@@ -69,7 +69,6 @@ class LogIn extends Component {
                             value={this.state.email.value}
                             onKeyUp={e => this.handleInput("email", e)}
                           />
-
                           <Input
                             type="password"
                             placeholder="Create password"
