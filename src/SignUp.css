@@ -11,7 +11,14 @@ that holds everything
 **********************/
 #signup {
   padding-top: 20px;
-  padding-bottom: 20px;
+    position: absolute;
+    width: 300px;
+    left: calc(50% - 150px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 20px;
 }
 
 #signup .card {
@@ -100,7 +107,7 @@ INPUT FORM
 	box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.2);
 }
   
-.plsgod {
+.signupbutton {
   padding-left: 100px;
   padding-right: 75px;
 }
@@ -130,6 +137,6 @@ a:active {
   text-align: center;
 }
   
-.plslink {
+.switchpage {
   padding-top: 25px;
 }

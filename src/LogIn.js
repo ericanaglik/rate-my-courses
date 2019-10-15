@@ -37,7 +37,7 @@ class LogIn extends Component {
   render() {
     return (
       <div>
-        <section id="signup">
+        <section id="login">
           <div className="container ">
             <div className="row">
               <div className="col-md-10 mx-auto">
@@ -75,10 +75,10 @@ class LogIn extends Component {
                             value={this.state.password.value}
                             onKeyUp={e => this.handleInput("password", e)}
                           />
-                          <div class="plsgod">
+                          <div class="loginbutton">
                             <Button text="Log In" onClick={this.handleSubmit} />
                           </div>
-                          <div class="plsbutton">
+                          <div class="switchpage">
                             <Link to="/signup" className="navbar__link">
                               Need to sign up? Click here
                             </Link>

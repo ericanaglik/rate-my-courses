@@ -96,11 +96,11 @@ class SignUp extends Component {
                           value={this.state.confirm.value}
                           onKeyUp={e => this.handleInput("confirm", e)}
                         />
-                        <div class="plsgod">
+                        <div class="signupbutton">
                           {/* SIGN UP BUTTON */}
                           <Button text="Join Now" onClick={this.handleSubmit} />
                         </div>
-                        <div class="plslink">
+                        <div class="switchpage">
                           <Link to="/login" className="navbar__link">
                             Already a user? Click here to login
                           </Link>

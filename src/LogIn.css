@@ -3,7 +3,7 @@ body{
     /* font-family: 'Quicksand', sans-serif; */
     
   }
-  #signup{
+  #login{
     padding-top: 20px;
     position: absolute;
     width: 300px;
@@ -14,18 +14,18 @@ body{
     align-items: baseline;
     padding-bottom: 20px;
   }
-  #signup .card{
+  #login .card{
     background-color:#dfdbe5;
     border-radius:8px;
     border:0;
     box-shadow: 0 17px 50px 0 rgba(0, 0, 0, 0.19), 0 12px 15px 0 rgba(0, 0, 0, 0);
   }
-  #signup .card .card-title{
+  #login .card .card-title{
     padding: 2rem 1.2rem 0;
     margin-bottom:0;
     text-align:center;
   }
-  #signup .card .card-title h2{
+  #login .card .card-title h2{
     position:relative;
     font-size:1.2rem;
     letter-spacing:.5px;
@@ -33,7 +33,7 @@ body{
     text-transform:uppercase;
     margin-bottom:20px;
   }
-  #signup .card .card-title h2:after{
+  #login .card .card-title h2:after{
     position:absolute;
     content:'';
     bottom:-10px;
@@ -115,12 +115,12 @@ body{
       text-align: center;
     }
 
-.plsgod {
+.loginbutton {
     padding-left: 100px;
     padding-right: 75px;
 }
 
-.plsbutton {
+.switchpage {
     padding-top: 20px;
     padding-left: 40px;
 }
