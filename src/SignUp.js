@@ -100,12 +100,13 @@ class SignUp extends Component {
                           {/* SIGN UP BUTTON */}
                           <Button text="Join Now" onClick={this.handleSubmit} />
                         </div>
-                        <div class="switchpage">
+                        
+                      </form>
+                      <div class="switchpage">
                           <Link to="/login" className="navbar__link">
                             Already a user? Click here to login
                           </Link>
                         </div>
-                      </form>
                     </div>
                   </div>
                 </div>

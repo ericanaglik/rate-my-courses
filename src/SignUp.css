@@ -138,5 +138,7 @@ a:active {
 }
   
 .switchpage {
-  padding-top: 25px;
+  padding: 2rem 1.2rem 0;
+  margin-bottom: 0;
+  text-align: center;
 }

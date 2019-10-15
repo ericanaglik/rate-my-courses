@@ -78,12 +78,14 @@ class LogIn extends Component {
                           <div class="loginbutton">
                             <Button text="Log In" onClick={this.handleSubmit} />
                           </div>
-                          <div class="switchpage">
+                          
+                          
+                        </form>
+                        <div class="switchpage">
                             <Link to="/signup" className="navbar__link">
                               Need to sign up? Click here
                             </Link>
-                          </div>
-                        </form>
+                            </div>
                       </div>
                     </div>
                   </div>
