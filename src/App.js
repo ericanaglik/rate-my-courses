@@ -6,6 +6,7 @@ import LogIn from './LogIn'
 import NavBar from './NavBar'
 import Landing from './Landing'
 
+
 function App() {
   return (
     <div className="App">
