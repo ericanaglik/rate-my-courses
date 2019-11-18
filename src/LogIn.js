@@ -64,13 +64,17 @@ class LogIn extends Component {
                       <div className="card-body">
                         <form className="form">
                           <Input
-                            type="text"
+                            type="email"
+                            id="email"
+                            name="email"
                             placeholder="Make School Email"
                             value={this.state.email.value}
                             onKeyUp={e => this.handleInput("email", e)}
                           />
                           <Input
                             type="password"
+                            id="password"
+                            name="password"
                             placeholder="Create password"
                             value={this.state.password.value}
                             onKeyUp={e => this.handleInput("password", e)}

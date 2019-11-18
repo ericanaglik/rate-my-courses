@@ -66,7 +66,9 @@ class SignUp extends Component {
                       <form className="form">
                         {/* NAME INPUT FORM */}
                         <Input
-                          type="text"
+                          type="name"
+                          id="name"
+                          name="name"
                           className="form-control"
                           placeholder="Full name"
                           value={this.state.name.value}
@@ -74,7 +76,9 @@ class SignUp extends Component {
                         />
                         {/* EMAIL INPUT FORM */}
                         <Input
-                          type="text"
+                          type="email"
+                          id="email"
+                          name="email"
                           className="form-control"
                           placeholder="Make School Email"
                           value={this.state.email.value}
@@ -83,6 +87,8 @@ class SignUp extends Component {
                         {/* PASSWORD INPUT FORM */}
                         <Input
                           type="password"
+                          id="password"
+                          name="password"
                           className="form-control"
                           placeholder="Create password"
                           value={this.state.password.value}
@@ -91,6 +97,8 @@ class SignUp extends Component {
                         {/* CONFIRM PASSWORD INPUT FORM */}
                         <Input
                           type="password"
+                          id="password2"
+                          name="password2"
                           className="form-control"
                           placeholder="Confirm password"
                           value={this.state.confirm.value}
